@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/EditTextReception"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top"
+        android:hint=""
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideOverlay" >
+
+    </EditText>
+  
+    <Button
+        android:id="@+id/btn_read_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="读卡" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="清空" />
+    
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+    
+</LinearLayout> 
+ 
+ 

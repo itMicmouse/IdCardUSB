@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:keepScreenOn="true"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_listdevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8" />
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_safe_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="获取安全模块号" />
+
+        <Button
+            android:id="@+id/btn_checkstyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="检测安全模块状态" />
+
+        <Button
+            android:id="@+id/btn_findcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="寻找卡片" />
+
+        <Button
+            android:id="@+id/btn_selectcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="选取卡片" />
+
+        <Button
+            android:id="@+id/btn_readcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="读取卡片" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="清空数据" />
+
+    </LinearLayout>
+
+</ScrollView>
